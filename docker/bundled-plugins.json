@@ -288,7 +288,9 @@
       "onboarding": {
         "recommended": false,
         "consent": false,
-        "enabledByEnv": ["OIDC_CLIENT_ID"]
+        "enabledByEnv": [
+          "OIDC_CLIENT_ID"
+        ]
       }
     },
     {
@@ -311,17 +313,6 @@
       "url": "https://github.com/Termix-SSH/Plugin-Tailscale/releases/download/v1.1.0/tailscale-1.1.0.tmxplug",
       "sha256": "8784a77a1fc1b0011d8243d9520574300df31bc40c31f86339868f4c9b76d1bf",
       "tier": "full"
-    },
-    {
-      "id": "telemetry",
-      "source": "tmxplug",
-      "url": "https://github.com/Termix-SSH/Plugin-Telemetry/releases/download/v1.0.2/telemetry-1.0.2.tmxplug",
-      "sha256": "5ffdc58b05cd8b37fd0a207f99d2d3a256164130c950032501c499f869edb9ec",
-      "tier": "standard",
-      "onboarding": {
-        "recommended": true,
-        "consent": true
-      }
     },
     {
       "id": "termix-identity",

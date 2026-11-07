@@ -1,4 +1,6 @@
 #!/bin/sh
+# Jarvis local-only: lock usage telemetry off.
+export ENABLE_TELEMETRY=false
 set -e
 
 PUID=${PUID:-1000}
